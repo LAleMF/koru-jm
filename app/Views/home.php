@@ -1,3 +1,7 @@
+<?php
+require_once '../../config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -16,6 +20,9 @@
     <?php include 'partials/services.php'; ?>
     <?php include 'partials/gallery.php'; ?>
     <?php include 'partials/about.php'; ?>
+    <?php include 'partials/reviews.php'; ?>
+    <?php include 'partials/location.php'; ?>
+    <?php include 'partials/footer.php'; ?>
 </body>
 
 </html>
