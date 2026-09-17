@@ -1,18 +1,52 @@
 <section id="nosotros">
+
     <div class="nosotros-container">
-        <img src="../../public/assets/images/img-nosotros-example.jpeg" alt="Imagen acerca de nosotros">
-        <div class="nosotros-contenido">
-            <p class="nosotros-etiqueta">SOBRE KORU</p>
-            <h2>Más que un corte, una experiencia.</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque sequi, ab quidem nulla corrupti beatae
-                labore ratione eum sed alias nostrum consequatur maxime animi possimus, ipsum quas, quasi dolorum
-                officiis!
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptas deleniti, quo nulla fugiat
-                alias, error ullam nostrum asperiores eos incidunt cupiditate commodi doloremque minima laudantium est
-                accusantium odio similique!
-            </p>
-            <a href="#">RESERVAR CITA</a>
+
+        <div class="nosotros-imagen">
+
+            <img src="../../public/assets/images/img-nosotros-example.jpeg" alt="Interior de la barbería KORU JM">
+
+            <div class="nosotros-imagen-info">
+                <span>KORU JM</span>
+                <p>SANTANDER</p>
+            </div>
+
         </div>
+
+
+        <div class="nosotros-contenido">
+
+            <span class="nosotros-etiqueta">
+                SOBRE KORU
+            </span>
+
+            <h2>
+                MÁS QUE UN CORTE.<br>
+                UNA EXPERIENCIA.
+            </h2>
+
+            <div class="nosotros-texto">
+
+                <p>
+                    En KORU creemos que una visita a la barbería es mucho más
+                    que un simple corte. Es un momento para cuidarte, desconectar
+                    y salir sintiéndote bien con tu estilo.
+                </p>
+
+                <p>
+                    Cuidamos cada detalle y adaptamos cada servicio a lo que
+                    buscas, combinando técnica, estilo y un trato cercano.
+                </p>
+
+            </div>
+
+            <a href="https://booksy.com/es-es/183495_koru-jose-martinez_barberia_34440_santander"
+                class="nosotros-button" target="_blank" rel="noopener noreferrer">
+                RESERVAR CITA
+            </a>
+
+        </div>
+
     </div>
+
 </section>

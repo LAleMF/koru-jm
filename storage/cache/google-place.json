@@ -1,0 +1,113 @@
+{
+    "timestamp": 1789654344,
+    "data": {
+        "id": "ChIJITzPugxLSQ0RM_KsbOgvDK4",
+        "formattedAddress": "rotonda del centro meteorológico, P.º de Altamira, 264, N 1 bajo derecho frente a, 39006 Santander, Cantabria, Spain",
+        "rating": 5,
+        "googleMapsUri": "https:\/\/maps.google.com\/?cid=12541451737622180403&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+        "userRatingCount": 12,
+        "displayName": {
+            "text": "KORU JM",
+            "languageCode": "es"
+        },
+        "reviews": [
+            {
+                "name": "places\/ChIJITzPugxLSQ0RM_KsbOgvDK4\/reviews\/Ci9DQUlRQUNvZENodHljRjlvT20xRVNtVkZNVmh4ZERjNVVXRlBYMHAxY2xwVk1rRRAB",
+                "relativePublishTimeDescription": "2 months ago",
+                "rating": 5,
+                "text": {
+                    "text": "José is a young professional with years of experience who does excellent work. He pays attention to every detail, and the haircut finish is perfect. He maintains good communication, listens to the client, and advises on the most suitable cut for your hair type. Highly recommended.",
+                    "languageCode": "en-US"
+                },
+                "originalText": {
+                    "text": "José es un joven profesional, con años de experiencia, que realiza un trabajo excelente. Cuida todos los detalles y el acabado del corte es perfecto. Mantiene buena comunicación, escucha al cliente y aconseja sobre el corte más adecuado a tu tipo de cabello.  Totalmente recomendable.",
+                    "languageCode": "es"
+                },
+                "authorAttribution": {
+                    "displayName": "francisco mohedano gallego",
+                    "uri": "https:\/\/www.google.com\/maps\/contrib\/102187397325881268768\/reviews",
+                    "photoUri": "https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJzjremc6PxIgmBbhdAXrxmtAlaPUcj-Rrqux5pQbmPbJHAiA=s128-c0x00000000-cc-rp-mo-ba2"
+                },
+                "publishTime": "2026-07-11T10:05:39.589213430Z",
+                "flagContentUri": "https:\/\/www.google.com\/local\/content\/rap\/report?postId=Ci9DQUlRQUNvZENodHljRjlvT20xRVNtVkZNVmh4ZERjNVVXRlBYMHAxY2xwVk1rRRAB&d=17924085&t=1",
+                "googleMapsUri": "https:\/\/www.google.com\/maps\/reviews\/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT20xRVNtVkZNVmh4ZERjNVVXRlBYMHAxY2xwVk1rRRAB!2m1!1s0xd494b0cbacf3c21:0xae0c2fe86cacf233"
+            },
+            {
+                "name": "places\/ChIJITzPugxLSQ0RM_KsbOgvDK4\/reviews\/Ci9DQUlRQUNvZENodHljRjlvT2tkbFNUVnNWRjlYY1RKUVpuQk5aRjlXZFVsemRYYxAB",
+                "relativePublishTimeDescription": "a month ago",
+                "rating": 5,
+                "text": {
+                    "text": "Jose is a delight; he knows how to work with hair like very few others, with precision and perfect fades. He's also incredibly attentive and friendly, which is hard to find these days in customer service. He goes the extra mile to make sure the work is flawless! He's phenomenal.",
+                    "languageCode": "en-US"
+                },
+                "originalText": {
+                    "text": "Jose es un encanto, sabe trabajar como muy pocos el cabello,con precisión y hace unos degradados perfectos, además de ser super atento y agradable, cosa que hoy en día cuesta encontrar cara al público,se esfuerza hasta dejar el trabajo perfecto!! Un fenómeno",
+                    "languageCode": "es"
+                },
+                "authorAttribution": {
+                    "displayName": "Beatriz Abascal",
+                    "uri": "https:\/\/www.google.com\/maps\/contrib\/109431041039371171577\/reviews",
+                    "photoUri": "https:\/\/lh3.googleusercontent.com\/a\/ACg8ocI2WTNnoUd5sgI_FcLV0AdQPG3rxDuFKoJVZlaadDUP4uldoQ=s128-c0x00000000-cc-rp-mo"
+                },
+                "publishTime": "2026-08-15T19:25:09.845769146Z",
+                "flagContentUri": "https:\/\/www.google.com\/local\/content\/rap\/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tkbFNUVnNWRjlYY1RKUVpuQk5aRjlXZFVsemRYYxAB&d=17924085&t=1",
+                "googleMapsUri": "https:\/\/www.google.com\/maps\/reviews\/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tkbFNUVnNWRjlYY1RKUVpuQk5aRjlXZFVsemRYYxAB!2m1!1s0xd494b0cbacf3c21:0xae0c2fe86cacf233"
+            },
+            {
+                "name": "places\/ChIJITzPugxLSQ0RM_KsbOgvDK4\/reviews\/Ci9DQUlRQUNvZENodHljRjlvT20xQ1ZFMDRaSGhGUlVOZldrVnNkM0ZXV0doek4xRRAB",
+                "relativePublishTimeDescription": "2 months ago",
+                "rating": 5,
+                "text": {
+                    "text": "Excellent barber, very professional!! Good products and top-notch service 👌🏼 The shop is in a perfect location.",
+                    "languageCode": "en-US"
+                },
+                "originalText": {
+                    "text": "Excelente barbero, muy profesional!! Buenos productos y la atención de primera 👌🏼El local queda en una ubicación perfecta.",
+                    "languageCode": "es"
+                },
+                "authorAttribution": {
+                    "displayName": "Edgar Alexander Brito",
+                    "uri": "https:\/\/www.google.com\/maps\/contrib\/117899796582636901886\/reviews",
+                    "photoUri": "https:\/\/lh3.googleusercontent.com\/a-\/ALV-UjWULSxYFA2txwtoK5f62Dd4d_0nxYsAesxJfIGx0GjrUoqH_XZE0A=s128-c0x00000000-cc-rp-mo"
+                },
+                "publishTime": "2026-07-04T16:30:58.771915783Z",
+                "flagContentUri": "https:\/\/www.google.com\/local\/content\/rap\/report?postId=Ci9DQUlRQUNvZENodHljRjlvT20xQ1ZFMDRaSGhGUlVOZldrVnNkM0ZXV0doek4xRRAB&d=17924085&t=1",
+                "googleMapsUri": "https:\/\/www.google.com\/maps\/reviews\/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT20xQ1ZFMDRaSGhGUlVOZldrVnNkM0ZXV0doek4xRRAB!2m1!1s0xd494b0cbacf3c21:0xae0c2fe86cacf233"
+            },
+            {
+                "name": "places\/ChIJITzPugxLSQ0RM_KsbOgvDK4\/reviews\/Ci9DQUlRQUNvZENodHljRjlvT2s1cGVqUk5iVmt4UVRONWFrVjRXbTlRUmtVMFJIYxAB",
+                "relativePublishTimeDescription": "3 weeks ago",
+                "rating": 5,
+                "text": {
+                    "text": "The best treatment and service, a 10 out of 10!",
+                    "languageCode": "en-US"
+                },
+                "originalText": {
+                    "text": "El mejor trato y servicio, de 10!",
+                    "languageCode": "es"
+                },
+                "authorAttribution": {
+                    "displayName": "Paula Garcia Pasalodos",
+                    "uri": "https:\/\/www.google.com\/maps\/contrib\/117842956641305682567\/reviews",
+                    "photoUri": "https:\/\/lh3.googleusercontent.com\/a-\/ALV-UjXGOyHG7s_NCVsZEPbUVhcOVk6HsfrOZASuomXrZN0KwQ_rh6Ed=s128-c0x00000000-cc-rp-mo"
+                },
+                "publishTime": "2026-08-26T16:14:36.952871614Z",
+                "flagContentUri": "https:\/\/www.google.com\/local\/content\/rap\/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s1cGVqUk5iVmt4UVRONWFrVjRXbTlRUmtVMFJIYxAB&d=17924085&t=1",
+                "googleMapsUri": "https:\/\/www.google.com\/maps\/reviews\/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s1cGVqUk5iVmt4UVRONWFrVjRXbTlRUmtVMFJIYxAB!2m1!1s0xd494b0cbacf3c21:0xae0c2fe86cacf233"
+            },
+            {
+                "name": "places\/ChIJITzPugxLSQ0RM_KsbOgvDK4\/reviews\/Ci9DQUlRQUNvZENodHljRjlvT2pkWk5HTkVZMVZ3UzFWR1UyOTBUWGRCYjNwR2VuYxAB",
+                "relativePublishTimeDescription": "2 months ago",
+                "rating": 5,
+                "authorAttribution": {
+                    "displayName": "ezzine omar",
+                    "uri": "https:\/\/www.google.com\/maps\/contrib\/114850540123691879705\/reviews",
+                    "photoUri": "https:\/\/lh3.googleusercontent.com\/a\/ACg8ocKckxDpUT_R5rM4gdLlyyQFloK-HkQdFVoNsGqOlotKwVTd_A=s128-c0x00000000-cc-rp-mo"
+                },
+                "publishTime": "2026-07-07T12:21:35.563941951Z",
+                "flagContentUri": "https:\/\/www.google.com\/local\/content\/rap\/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pkWk5HTkVZMVZ3UzFWR1UyOTBUWGRCYjNwR2VuYxAB&d=17924085&t=1",
+                "googleMapsUri": "https:\/\/www.google.com\/maps\/reviews\/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pkWk5HTkVZMVZ3UzFWR1UyOTBUWGRCYjNwR2VuYxAB!2m1!1s0xd494b0cbacf3c21:0xae0c2fe86cacf233"
+            }
+        ]
+    }
+}

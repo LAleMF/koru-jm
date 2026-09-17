@@ -1,7 +1,12 @@
 <?php
 require_once '../../config/config.php';
-?>
+require_once '../../app/Services/GooglePlacesService.php';
 
+// Obtenemos los datos de Google una sola vez.
+// El servicio se encarga de utilizar el caché cuando corresponde.
+$googlePlaces = new GooglePlacesService();
+$googleData = $googlePlaces->obtenerDatos();
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,6 +15,7 @@ require_once '../../config/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koru JM</title>
     <link rel="stylesheet" href="../../public/assets/css/style.css">
+    <link rel="stylesheet" href="../../public/build/assets/main.css">
     <script type="module" src="../../public/build/main.js"></script>
 </head>
 

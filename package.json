@@ -11,7 +11,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@skaut/justified-layout": "^5.0.0"
+    "@skaut/justified-layout": "^5.0.0",
+    "gsap": "^3.15.0",
+    "photoswipe": "^5.4.4"
   },
   "devDependencies": {
     "vite": "^8.2.2"

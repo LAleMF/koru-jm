@@ -4,49 +4,85 @@
 
         <div class="opiniones-encabezado">
             <p>OPINIONES</p>
+
             <h2>Lo que dicen nuestros clientes.</h2>
         </div>
 
-        <div class="opiniones-grid">
+        <div class="opiniones-carrusel">
 
-            <article class="opinion">
-                <div class="opinion-estrellas">★★★★★</div>
+            <button class="opiniones-flecha opiniones-flecha-izquierda" type="button"
+                aria-label="Ver reseñas anteriores">
+                ←
+            </button>
 
-                <p>
-                    "Una experiencia increíble. Muy buen trato y un resultado
-                    espectacular."
-                </p>
+            <div class="opiniones-grid">
+                <?php if (!empty($googleData['reviews'])): ?>
 
-                <span>Cliente Koru JM</span>
-            </article>
+                    <?php foreach ($googleData['reviews'] as $review): ?>
 
-            <article class="opinion">
-                <div class="opinion-estrellas">★★★★★</div>
+                        <?php
+                        $nombre = $review['authorAttribution']['displayName'] ?? 'Cliente de Google';
 
-                <p>
-                    "Gran profesionalidad, buen ambiente y siempre salgo
-                    encantado con el corte."
-                </p>
+                        $texto = $review['originalText']['text']
+                            ?? $review['text']['text']
+                            ?? null;
 
-                <span>Cliente Koru JM</span>
-            </article>
+                        $rating = $review['rating'] ?? 0;
 
-            <article class="opinion">
-                <div class="opinion-estrellas">★★★★★</div>
+                        $fecha = '';
 
-                <p>
-                    "Muy recomendable. Atención cercana y mucho cuidado con
-                    los detalles."
-                </p>
+                        if (!empty($review['publishTime'])) {
+                            $date = new DateTime($review['publishTime']);
+                            $date->setTimezone(new DateTimeZone('Europe/Madrid'));
+                            $fecha = $date->format('d/m/Y');
+                        }
+                        ?>
 
-                <span>Cliente Koru JM</span>
-            </article>
+                        <article class="opinion">
+
+                            <div class="opinion-estrellas" aria-label="<?= htmlspecialchars($rating) ?> de 5 estrellas">
+                                <?= str_repeat('★', (int) $rating) ?>
+                            </div>
+
+                            <?php if ($texto): ?>
+                                <p><?= htmlspecialchars($texto) ?></p>
+                            <?php endif; ?>
+
+                            <div class="opinion-autor">
+                                <strong><?= htmlspecialchars($nombre) ?></strong>
+
+                                <?php if ($fecha): ?>
+                                    <span><?= htmlspecialchars($fecha) ?></span>
+                                <?php endif; ?>
+                            </div>
+
+                        </article>
+
+                    <?php endforeach; ?>
+
+                <?php else: ?>
+
+                    <p class="opiniones-sin-resultados">
+                        No hay opiniones disponibles en este momento.
+                    </p>
+
+                <?php endif; ?>
+            </div>
+
+            <button class="opiniones-flecha opiniones-flecha-derecha" type="button" aria-label="Ver siguientes reseñas">
+                →
+            </button>
 
         </div>
 
-        <a href="#" class="opiniones-boton">
-            VER TODAS LAS OPINIONES
-        </a>
+        <?php if (!empty($googleData['googleMapsUri'])): ?>
+
+            <a href="<?= htmlspecialchars($googleData['googleMapsUri']) ?>" class="opiniones-boton" target="_blank"
+                rel="noopener noreferrer">
+                VER TODAS LAS OPINIONES
+            </a>
+
+        <?php endif; ?>
 
     </div>
 

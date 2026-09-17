@@ -1,3 +1,8 @@
+<?php
+$google = require __DIR__ . '/../../../config/google.php';
+$placeId = $google['place_id'];
+?>
+
 <section id="location">
 
     <div class="location-encabezado">
@@ -10,8 +15,9 @@
 
         <div class="location-mapa">
             <iframe
-                src="https://www.google.com/maps/embed/v1/place?key=<?= $googleMapsApiKey ?>&q=KORU+JOSE+MARTINEZ,Santander"
-                loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin">
+                src="https://www.google.com/maps/embed/v1/place?key=<?= $googleMapsApiKey ?>&q=place_id:<?= $placeId ?>"
+                loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+                title="Ubicación de KORU JOSE MARTINEZ en Santander">
             </iframe>
         </div>
 
@@ -34,8 +40,14 @@
             </div>
 
             <div class="location-acciones">
-                <a href="#">CÓMO LLEGAR</a>
-                <a href="#">RESERVAR CITA</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=KORU+JOSE+MARTINEZ&query_place_id=<?= $placeId ?>"
+                    target="_blank" rel="noopener noreferrer">
+                    CÓMO LLEGAR
+                </a>
+                <a href="https://booksy.com/es-es/183495_koru-jose-martinez_barberia_34440_santander" target="_blank"
+                    rel="noopener noreferrer">
+                    RESERVAR CITA
+                </a>
             </div>
 
         </div>
